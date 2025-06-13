@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Rabs Games!</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn.glitch.global/bc281a19-7937-4621-a747-fb021bca870c/Persona_5_Confidant_Guides_Icon_29_-_Morgana.webp?v=1749234745523">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      body {
+        background-image: url("https://cdn.glitch.global/bc281a19-7937-4621-a747-fb021bca870c/ggsdf%20(1).jpeg?v=1748867489647");
+      }
+
+      .maindiv {
+        background: #dbfafa;
+        color: #2469ae;
+        font-family: qicka;
+        overflow: auto;
+      }
+
+      ul {
+        background: #2aaef2;
+      }
+
+      .active {
+        background: #fdfdfc;
+        color: black;
+      }
+      li a {
+        color: white;
+      }
+      /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+      .flip-card {
+        background-color: transparent;
+        width: 150px;
+        height: 200px;
+        border: 2px solid #2469ae;
+        float: left;
+        margin-left: 4%;
+        perspective: 1000px; /* Remove this if you don't want the 3D effect */
+      }
+
+      /* This container is needed to position the front and back side */
+      .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+      }
+
+      /* Do an horizontal flip when you move the mouse over the flip box container */
+      .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+      }
+
+      /* Position the front and back side */
+      .flip-card-front,
+      .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden; /* Safari */
+        backface-visibility: hidden;
+      }
+
+      /* Style the front side (fallback if image is missing) */
+      .flip-card-front {
+        background-color: #bbb;
+        color: black;
+      }
+
+      /* Style the back side */
+      .flip-card-back {
+        background-color: #157eda;
+        color: white;
+        transform: rotateY(180deg);
+      }
+      .flip-card-back p {
+        margin: 0;
+      }
+      .flip-card-back h1 {
+        margin: 0;
+      }
+      .flip-card-back h3 {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!--     <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br /> -->
+    <div class="all">
+      <ul class="navbox">
+        <li><a href="index.html">☆home☆</a></li>
+        <li><a href="music.html">☆music☆</a></li>
+        <li><a href="videogames.html" class="active">☆videogames☆</a></li>
+        <li><a href="photography.html">☆photography☆</a></li>
+        <li><a href="videography.html">☆videography☆</a></li>
+      </ul>
+      <div class="maindiv">
+        <span
+          ><h1 style="font-size: 19px">
+            I love videogames! From Single Player RPG to Multiplayer Tactical
+            Shooter, I always come back for more. Here's a short list of games
+            I've played recently and my reviews for them! <br />
+            (Also check out my playtime!)
+          </h1></span
+        >
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img
+                src="https://cdn.glitch.global/bc281a19-7937-4621-a747-fb021bca870c/Metaphor_Refantazio_Cover_Art.png?v=1748961721487"
+                alt="metaphor"
+                style="width: 150px; height: 200px"
+              />
+            </div>
+            <div class="flip-card-back">
+              <h1 style="font-size: 18px">Metaphor:<br />ReFantazio</h1>
+              <h3 style="font-size: 14px">Playtime: 115 Hours</h3>
+              <p style="font-size: 11px">
+                A thrilling expierence from start to finish, Metaphor:ReFantazio
+                surely will not dissapoint any to touch it. If you want a
+                beautifully witten story with challenging and strategic battles,
+                Metaphor is for you!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img
+                src="https://cdn.glitch.global/bc281a19-7937-4621-a747-fb021bca870c/Persona_3_Reload_Cover_Logoless.webp?v=1748961691217"
+                alt="makoto"
+                style="width: 150px; height: 200px"
+              />
+            </div>
+            <div class="flip-card-back">
+              <h1 style="font-size: 18px">Persona 3 Reload</h1>
+              <h3 style="font-size: 14px">Playtime: 100 Hours</h3>
+              <p style="font-size: 10px">
+                What is the meaning of Life? What is the meaning of Death?
+                Persona 3 asks these questions with beautiful poise and
+                storytelling. With a combat system with enough style to make any
+                artist impressed, Persona 3 Reload gives an expierence that not
+                many can forget.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img
+                src="https://cdn.glitch.global/bc281a19-7937-4621-a747-fb021bca870c/e554925b-2a7b-4429-b324-eb68b54a9118.png?v=1748961789151"
+                alt="val"
+                style="width: 150px; height: 200px"
+              />
+            </div>
+            <div class="flip-card-back">
+              <h1>Valorant</h1>
+              <h3 style="font-size: 14px">Playtime: 525 Hours</h3>
+              <p style="font-size: 11.75px">
+                Valorant is the main multiplayer game me and my friends play.
+                It's really frustrating, but also really fun a lot of times with
+                the right people! If you like competitive shooters, try
+                Valorant!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img
+                src="https://cdn.glitch.global/bc281a19-7937-4621-a747-fb021bca870c/56c494ad88a7e300458b4d44.jpg?v=1748962552849"
+                alt="Cartman"
+                style="width: 150px; height: 200px"
+              />
+            </div>
+            <div class="flip-card-back">
+              <h1 style="font-size: 16px">
+                South Park: <br />The Stick of Truth
+              </h1>
+              <h3 style="font-size: 14px">Playtime: 11 Hours</h3>
+              <p style="font-size: 10.5px">
+                Add dark comedy and a simple but fun rpg combat system, and what
+                do you get? South Park but Dungeons and Dragons! Need a short
+                game that will have you rolling with immature and crude humor?
+                Then check out South Park: The Stick of Truth!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img
+                src="https://cdn.glitch.global/bc281a19-7937-4621-a747-fb021bca870c/bkvhbk.webp?v=1748962418121"
+                alt="BBS"
+                style="width: 150px; height: 200px"
+              />
+            </div>
+            <div class="flip-card-back">
+              <h1 style="font-size: 15px">
+                Kingdom Hearts <br />Birth by Sleep: Final Mix
+              </h1>
+              <h3 style="font-size: 14px">Playtime: 35 Hours</h3>
+              <p style="font-size: 9.3px">
+                I've been expierencing the Kingdom Hearts series from start to
+                finish, and Birth by Sleep fits like a glove in the Kingdom
+                Hearts franchise. Short, sweet, and full of extras; Birth by
+                Sleep hits all the right notes. (P.S. Don't start the series
+                with this game, go in release order.)
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img
+                src="https://cdn.glitch.global/bc281a19-7937-4621-a747-fb021bca870c/BioShock_cover.jpg?v=1748962848256"
+                alt="Big Daddy"
+                style="width: 150px; height: 200px"
+              />
+            </div>
+            <div class="flip-card-back">
+              <h1>BioShock</h1>
+              <h3 style="font-size: 14px">Playtime: 10 Hours</h3>
+              <p style="font-size: 8.8px">
+                What if Humanity could alter their genetic structure with just
+                the tip of a needle? Venture to the bottom of the ocean to save
+                a city that collapsed upon itself with it's own greed. Use guns
+                and your own reworked body to fend off humans that messed with
+                their gene pool to the point of no return. Just remember, in
+                Rapture, there are no gods or kings, only man.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flip-card"
+          style="width: 200px; height: 200px; margin-left: 20%"
+        >
+          <div class="flip-card-inner" style="width: 200px; height: 200px">
+            <div class="flip-card-front">
+              <img
+                src="https://cdn.glitch.global/bc281a19-7937-4621-a747-fb021bca870c/71WlibEzVaL._AC_UF1000%2C1000_QL80_.jpg?v=1748961857994"
+                alt="Lugia"
+                style="width: 200px; height: 200px"
+              />
+            </div>
+            <div class="flip-card-back">
+              <h1>Pokémon: <br />Soul Silver</h1>
+              <h3>Playtime: 46 Hours</h3>
+              <p style="font-size: 11px">
+                Hilariously hard and painstakingly pleasing, Soul Silver takes
+                the gloves off and makes you earn your wins. Wanna get your ass
+                beat in a retro vibe with cute animal creatures? Play Soul
+                Silver!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flip-card"
+          style="width: 200px; height: 200px; margin-left: 20%"
+        >
+          <div class="flip-card-inner" style="width: 200px; height: 200px">
+            <div class="flip-card-front" style="width: 200px">
+              <img
+                src="https://cdn.glitch.global/bc281a19-7937-4621-a747-fb021bca870c/K1ELvNM.jpg?v=1748961925386"
+                alt="Awakening"
+                style="width: 200px; height: 200px"
+              />
+            </div>
+            <div class="flip-card-back" style="width: 200px">
+              <h1>Fire Emblem Awakening</h1>
+              <h3>Playtime: 55 Hours</h3>
+              <p style="font-size: 10.2px">
+                My first ever real Fire Emblem expierence, Awakening allowed me
+                to fully submerse myself into the Fire Emblem universe. If you
+                think chess isn't hard enough and want to add some magic to it,
+                then play Fire Emblem awakening!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
